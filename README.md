@@ -62,7 +62,7 @@ La première étape est donc de lancer le script `init_db.py`.
 - Une API FastAPI expose des routes pour accéder aux zones, sources et indicateurs.
 - Un petit front-end statique, lancé via `python -m http.server`, permet d’afficher les données.
 
-  Il faut donc lancer l'API avec la commande ```bash uvicorn app.main:app --reload```.
-  Puis, dans un autre terminal, se placer dans le répertoire `\frontend` avec la commande ```bash cd frontend```. On lance ensuite la commande ```bash py -m http.server 8001```
+  Il faut donc lancer l'API avec la commande ```uvicorn app.main:app --reload```.
+  Puis, dans un autre terminal, se placer dans le répertoire `\frontend` avec la commande ```cd frontend```. On lance ensuite la commande ```py -m http.server 8001```
 
 
